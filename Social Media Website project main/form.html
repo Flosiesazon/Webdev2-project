@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Application Form</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <!--This is the navigation-->
+   <body>
+      <nav>
+         <a href="https://tudublin.ie/"><img alt="TU Dublin Logo" class="logo" src="image/TUDublin_Logo_RGB-1024x645.png"/></a>
+         <ul>
+            <li>
+               <a href="index.html">Home</a>
+            </li>
+            <li>
+               <a href="#">Tools</a>
+               <ul>
+                  <li>
+                     <a href="slack.html">Slack</a>
+                  </li>
+                  <li>
+                     <a href="linkedIn.html">LinkedIn</a>
+                  </li>
+                  <li>
+                     <a href="pinterest.html">Pinterest</a>
+                  </li>
+                  <li>
+                     <a href="tumblr.html">Tumblr</a>
+                  </li>
+                  <li>
+                     <a href="instagram.html">Instagram</a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="about_me.html">About Me</a>
+            </li>
+            <li>
+               <a>Contact Us</a>
+               <ul>
+                  <li>
+                     <a href="form.html">Form</a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <!--This is the grid part containing the application form and text-->
+      <div class="container">
+         <div class="item1"></div>
+         <div class="item2">
+            <h1 id="form">WE WANT TO HEAR FROM YOU</h1> 
+            <p id="text">
+               Please fill out this form and we will get in touch!
+            </p>
+         </div>
+         <div class="item3"></div>
+         <div class="item4"></div>
+         <div class="item5">
+            <p id="text2">Contact us for more information and share your ideas/experiences while learning/teaching about social media tools.</p>
+            <div>
+               <!--This the personal information section-->
+               <form action="userdata.html" method="get" enctype="multipart/form-data">
+                  <fieldset>
+                     <legend>Personal Information</legend>
+                     <br>
+                     <div>
+                         <label for="firstname">Firstname: </label>
+                         <input type="text"  name="firstname" id="firstname" placeholder="Firstname" required>
+                     </div>
+                      <div>
+                          <label for="lastname">Lastname: </label>
+                          <input type="text" name="lastname" id="lastname" placeholder="Lastname" required>
+                      </div><br>
+                      <div> 
+                           <label for="date">Date of birth: </label>
+                           <input type="date" name="birthday" id="date" required>
+                      </div><br>
+                  </fieldset>
+                  <br><br>
+                  <fieldset>
+                     <legend>Contact Information</legend>
+                     <br>
+                      <div>
+                           <label for="email">Email: </label>
+                           <input type="email"  name="Email" id="email" placeholder="Email" required></div><br>
+                      <div>
+                           <label for="tel">Phone:</label>
+                           <input type="tel" name="Phone Number" id="tel" placeholder="Phone Number" required>
+                      </div><br>
+                  </fieldset>
+                  <br><br>
+                  <!--Dropdown list for student/teacher identity using option atttribute-->
+                  <fieldset>
+                     <legend>Identity</legend>
+                     <div class="identity">
+                        <label for="identity">I am:</label>
+                        <select name="identity" id="identity">
+                           <option value="teacher">Teacher</option>
+                           <option value="student">Student</option>
+                        </select>
+                     </div>
+                     <br>
+                     <!--I used a radio attribute to create the gender list-->
+                     <div>
+                         <div>
+                             <input type="radio"  name="gender" id="male" value="male" required>
+                             <label for="male">Male </label>
+                         </div>
+                         <div>
+                             <input type="radio" name="gender" id="female" value="female" required>
+                             <label for="female">Female</label>
+                         </div>
+                         <div>
+                             <input type="radio"  name="gender" id="radio" value="other" required>
+                             <label for="radio">Other</label>
+                         </div> 
+                     </div>
+                     <br>
+                  </fieldset>
+                  <br><br>
+                  <!--This the comment box and submit/reset section-->
+                  <fieldset>
+                     <br>
+                     <p>Which social media tools do you use? (Click all that apply!)</p>
+                     <br>
+                      <div>
+                          <input type="checkbox" name="media1" id="media1" value="slack">
+                          <label for="media1">Slack</label>
+                      </div><br>
+                      <div>
+                          <input type="checkbox" name="media2" id="media2" value="linkedIn">
+                          <label for="media2">LinkedIn</label>
+                      </div><br>
+                      <div>
+                          <input type="checkbox" name="media3" id="media3" value="tumblr">
+                          <label for="media3">Tumblr</label>
+                      </div><br>
+                      <div>
+                          <input type="checkbox" name="media4" id="media4" value="whatsapp">
+                          <label for="media4">WhatsApp</label>
+                      </div><br>
+                      <div>
+                          <input type="checkbox" name="media5" id="media5" value="instagram">
+                          <label for="media5">Instagram</label>
+                      </div><br><br>
+                    
+                     <p>Comment here for more queries:</p>
+                     <textarea rows="7" cols="62" name="comment" required placeholder="Type here..."></textarea>
+                  </fieldset>
+                  <br><br>
+                  <input type="submit" value="Submit">
+                  <input type="reset">
+               </form>
+            </div>
+         </div>
+         <div class="item6"></div>
+         <div class="item7">
+            <footer></footer>
+         </div>
+      </div>
+       <!-- i will insert my sitemap on footer along with the TU Dublin link and the copyright text-->
+       
+         <div class="footer">
+          <footer>
+                <div class="inline">
+                <h3>
+                    <a class="footer-link" href="https://tudublin.ie/">TU Dublin</a>
+                </h3>
+            </div>
+            <div class="inline">
+                 <h3>Copyright All Rights Reserved © 2020</h3>
+            </div>
+            <div class="inline">
+                <h3>
+                    <a class="footer-link" href="sitemap.html">Sitemap</a>
+                </h3>
+              </div>
+              <div class="middle">
+                  <h3>
+                      <a class="footer-link" href="resources.html">Resources</a>
+                  </h3>
+              </div>
+          </footer>
+       </div>
+   </body>
+</html>

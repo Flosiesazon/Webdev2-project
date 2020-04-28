@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Userdata</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <!--This is the navigation-->
+   <body>
+      <nav>
+         <a href="https://tudublin.ie/"><img alt="TU Dublin Logo" class="logo" src="image/TUDublin_Logo_RGB-1024x645.png"/></a>
+         <ul>
+            <li>
+               <a href="index.html">Home</a>
+            </li>
+            <li>
+               <a href="#">Tools</a>
+               <ul>
+                  <li>
+                     <a href="slack.html">Slack</a>
+                  </li>
+                  <li>
+                     <a href="linkedIn.html">LinkedIn</a>
+                  </li>
+                  <li>
+                     <a href="pinterest.html">Pinterest</a>
+                  </li>
+                  <li>
+                     <a href="tumblr.html">Tumblr</a>
+                  </li>
+                  <li>
+                     <a href="instagram.html">Instagram</a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="about_me.html">About Me</a>
+            </li>
+            <li>
+               <a>Contact Us</a>
+               <ul>
+                  <li>
+                     <a href="form.html">Form</a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <div class="result">
+         <h1 class="feedback">Thank you for the feedback!</h1>
+         <p class="feedback">The information you submitted has been received, thank you!</p>
+         <h3 class="feedback">Your submitted data:</h3>
+         <div class="feedback" id="userdata"></div>
+         <script>
+            const dataList = document.getElementById("userdata")
+            new URLSearchParams(window.location.search).forEach((value, name) => {
+                dataList.append(`${name}: ${value}`)
+                dataList.append(document.createElement('br'))
+            })  
+            
+         </script>
+         <div class="feedback">
+            <p>
+               <a href="form.html" id="return">Return to Contact Form page</a>
+            </p>
+         </div>
+      </div>
+   </body>
+</html>

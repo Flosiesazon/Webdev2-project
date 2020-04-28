@@ -1,0 +1,1690 @@
+/*///////////-THIS IS THE BODY SECTION-///////////*/
+* {
+    margin: 0; /*setting the margin to 0 to style for all the elements in html page*/
+    padding: 0; /*setting the padding to 0 to style for all the elements in html page*/
+}
+body {
+    background-image: url(image/background.jpg); /*i used an image for my background*/
+    background-size: cover; /*the image will fill the elements while keeping its aspect ratio*/
+    font-family: sans-serif; /*setting the elements to sans-serif*/
+    color: #fff;
+}
+
+
+
+/*/////////-NAVIGATION BAR-///////////*/
+
+nav {
+    width: 40%; /*sets the width of the navigation width to 40%*/
+    height: 60px;/*sets the navigation  height to 60px*/
+}
+
+a:hover {
+    background-color: #fff; /*sets the background color of the navigation to white*/
+    opacity: 50%; /*sets the opacity of the background color to 50%*/
+}
+
+nav img {
+    font-family: sans-serif; /*sets the font to sans serif*/
+    color: #222; /*sets the font color of the element to grey*/
+    font-size: 24px; /*sets the size of the font element to 24px*/
+    line-height: 55px; /*sets the space between the baseline of the two lines of the text to 55px*/
+    float: left; /*displays the elements on the left side of the container*/
+    padding: 0px 20px; /*sets the top padding of the image to 0 and sets the left padding to 20 */
+}
+
+nav ul {
+    float: left; /*placing the undordered nav list on the left*/
+}
+
+nav ul li {
+    float: left; /*floating the nav ul li texts on the left*/
+    list-style: none; /*removes the bullet points*/
+    position: relative; /* position the navigation, unordered list to relative*/
+    
+}
+
+nav ul li a {
+    display: block; /*displaying the nav, ul,li, and a to block*/
+    font-family: sans-serif; /*sets the font of the text to sans serif*/
+    color: #222; /*sets the font color to grey*/
+    font-size: 16px; /*sets the text size to 14px*/
+    padding: 15px 14px; /*sets the top and bottom to 22px and left and right to 14px*/
+    text-decoration: none; /*removes the underline on the text*/
+     background-color: #a2d5ab; /*set the background color of the navigation to mint green*/
+}
+
+nav ul li ul {
+    display: none; /*the elements will not be displayed*/
+    position: absolute; /*postions the elements to absolute*/
+    padding: 5px; /*sets the padding to 5px*/
+}
+
+nav ul li:hover ul { 
+    display: block; /*displaying the hover element as block*/
+}
+
+
+/*DROPDOWN NAV SECTION*/
+
+nav ul li ul li {
+    width: 100px; /*sets the witdh of the dropdown element to 100px*/
+ 
+}
+nav ul li ul li a {
+    padding: 6px 14px;  /*sets the top/bottom to 6px and left/right padding to 14px*/
+}
+
+nav ul li ul li a:hover {
+     background-color: #f3f3f3; /*sets the background color of the dropdown menu to a shade of grey   */
+    opacity: 50%; /*sets the opacity of the dropdown menu to 50%*/
+}
+
+.logo {
+    width: 100px; /*sets the width of the logo to 100px*/
+}
+
+/*////////////-HOMEPAGE-//////////////*/
+
+/*-HEADERr-*/
+header {
+    font-size: 300px; /*sets the size of the text to 300px*/
+    color: #fff; /*sets the color of the text to white*/
+}
+
+#header {
+    color: #fff; /*sets font color of the sentence to white*/
+    margin-left: 13%; /*sets the margin on the left of the sentence to 13%*/
+    font-size: 40px; /*sets the font size to 40px*/
+}
+
+#home {
+    width: 530px;/*set the width of the element to 530px*/
+    text-align: justify;/*align the text to justify*/
+    margin: 130px 505px 20px 355px;/*set the top 130px, right 505px, 20px at the bottom and 355px margin on the left side of the element*/
+    background-color: rgba(0,0,0,.8); /*set a black transparent background*/
+    box-shadow: 5px 5px 4px #000000;/*set the box shadow of the element to 5px on the right and bottom shadow with a blur effect of 4px*/
+    padding: 15px;/*set the padding of the element ot 15px*/
+}
+
+#home-image {
+    position: absolute;/*set the position of the element to absolute*/
+    top: 80%;/*set the top positioning of the element to 80%*/
+    left: 25%;/*set the left positioning of the element to 25%*/
+    z-index: -1;/*set the z-index to -1 place the image on the back of the texts*/
+    border-top: 5px solid #fff;/*set the top border to 5px solid with a white color*/
+    padding-top: 50px;/*set the top padding to 50px*/
+}
+
+#home-heading2 {
+    text-align: center;/*aligning the element to center*/
+    padding-bottom: 10px;/*set the bottom padding of the element to 10px*/
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: rgba(0,0,0,.8); /*set a transparent background*/
+    width: 400px; /*set the width of the footer to 400px wide*/
+    height: 40px; /*set the height of the footer to 40px*/
+    font-size: 10px; /*set size of the text to 10px*/
+    padding: 30px; /*set the padding to 30px*/
+    margin: 100px 400px 5px 400px; /*set the margin top(100px), left/right side (400px) and bottom (5px) of the footer*/
+}
+
+
+.footer-link {
+    text-decoration: none;/*setting the text decoration to none removes the underline of the link*/
+    color: #fff; /*set the color of the text to white*/
+    padding: 5px; /*set the padding of the text to 5px*/
+}
+
+.footer-link:hover {
+    color: #000; /*set the text color on the hover to black*/
+    background-color: #ffffff; /*set the background color of the hover to white*/
+}
+
+/*///////-THIS CLASS IS SPECIFICALLY ADDED TO HTML TOOL FOOTER PAGES ONLY-////////*/
+
+/*///- i add an id tag at the footer on specific pages that might have a huge gap  margin or the space are too small*/
+.div {
+    position: absolute; /*set the position of the div footer to absolute*/
+    top: 740px;/*set the top position of the element to 740px*/
+}
+
+.inline {
+    display: inline-block; /*displaying the element to inline-block makes them placed beside each other in line*/
+    padding: 10px; /*set the padding to 10px*/
+}
+
+#home-footer{
+    margin-top: 25%; /*set the top margin of the homepage footer to 25%*/
+}
+
+
+/*//////////////////-ABOUT ME SECTION-/////////*/
+
+#about {
+    font-size: 150px;/*set the font size of the header to 150px*/
+    text-align: center;/*aligning the header at the center*/
+    margin:10px 100px ; /*set the top/bottom margin to 10px and 100px on the left/right side*/ 
+    border-bottom: 5px solid #fff; /*set a solid 5px border with a white color at the bottom of the header*/
+}
+
+#profile {
+    width: 350px;/*set the width of the image to 350px*/
+    margin: 50px 0px 50px 70px;/*set the margin of the image to 50px top/bottom, 70px on the left and 0px on the right*/
+    border-radius: 100%;/*set the border radius to 100% makes the image round*/
+    border: 5px solid #a2d5ab;/*set the border of the image in 5px solid with a mint green color*/
+}
+
+.profile {
+    float: right;/*float the text element to the right*/
+    width: 400px;/*set the width of the text element to 400px*/
+    text-align: justify;/*align the text to justify*/
+    margin: 50px 30px;/**set the top/bottom margin to 50px and left/right margin to 30px*/
+    background-color: rgba(0,0,0,.8);/*sets the transparent background color to black */
+    box-shadow: 0 10px 15px #000;/*sets the box shadow to a black color on the left(5px) and right(15px)*/
+    padding: 20px; /*set the padding of the texts to 20px*/
+    border-radius: 10px;/*set the border radius to 10px*/
+}
+
+
+
+/*/////-TABLE-//////*/
+
+#timeline {
+    background-color: #fff;/*set the background color of the heading to white*/
+    color: #a2d5ab;/*set the color of the text to mint green*/
+    border: 5px dashed #a2d5ab;/*set the border of the heading to 5px dashed with a mint green color*/
+    width: 250px;/*set the width of the heading to 250px*/ 
+    padding: 10px;/*set the padding of the element to 10px*/
+    margin: 50px 355px;/*set the top/bottom margin to 50px and a 355px for the left and right side*/
+}
+
+table {
+    border-collapse: separate;/*set the cell border of the table to separate*/
+    width: 60%;/*set the width of the table to 60%*/
+    margin: 50px 200px;/*set the top/bottom to 50px and 200px on the left/right margin of the table*/
+}
+
+td, th {
+    border: 2px solid #fff;/*set the border of the table data and table header to 2px solid in white color*/
+    padding: 10px;/*set the padding of the table data and heading*/
+    text-align:left;/*aligning the texts on the left*/
+}
+
+th {
+    text-align: center;/* aligning the text of the table header to center*/
+}
+
+tr:nth-child(even) {
+    background-color: #a2d5ab;/*set the background color*/
+}
+
+tr:nth-child(odd) {
+     background-color: #0d2c54;/*set the background color of the headings as navy*/
+}
+
+.about-grid {
+    display: grid;/*display the element to grid*/
+    grid-template-columns:500px 500px;/*set the 2 grid-column templates to 500px*/
+    grid-template-rows: 200px auto 1fr;/*set the grid template row to 200px auto and 1 fraction*/
+    grid-template-areas: 
+       "header header"
+        "figure aside"
+        "section section"
+     ;/*grid template areas specifies named grid areas*/
+}
+
+header {
+    grid-area: header;/*it specifies the header's size and location in a grid layout*/
+}
+
+figure {
+    grid-area: figure;/*it specifies the figures's size and location in a grid layout*/
+}
+
+aside {
+    grid-area:aside;/*it specifies the size and location of the aside section in a grid layout*/
+}
+
+section {
+    grid-area: section;/*it specifies the section's size and location in a grid layout*/
+    justify-content: center; /*justfy the content to center*/
+}
+
+.summary1 {
+    position: absolute; /*set the positioning to absolute*/
+    top: 185%;/*set the top positioning to 185%*/
+    right: 50%;/*set the right positioning to 50%*/
+    grid-area: summary1;/*it specifies summary1 size and location in a grid layout*/
+    background-color: rgba(0,0,0,.8);/*sets the transparent background color to black */
+    box-shadow: 0 10px 15px #000;/*sets the box shadow to a black color on the left(10px) and right(15px)*/
+    margin: 30px 40px 20px 110px;/*set the top margin to 30px and 40px on the right side, 20px at the bottom, 110px on the left*/
+    padding: 20px;/*set the padding to 20px*/
+    text-align: justify;/*aligning the texts to justify*/
+    
+}
+
+.summary2 {
+    position: absolute; /*set the positioning to absolute*/
+    top: 185%;/*set the top positioning to 185%*/
+    left: 50%;/*set the left positioning to 50% */
+    grid-area: summary2;/*it specifies header's size and location in a grid layout*/
+    background-color: rgba(0,0,0,.8);/*sets the transparent background color to black */
+    box-shadow: 0 10px 15px #000;/*sets the box shadow to a black color on the left(5px) and right(15px)*/
+    margin:30px 110px 20px 40px;/*set the margin to 30px(top), (110px)right, 20px (bottom) and 40px left*/
+    padding: 20px;/*set the padding to 20px*/
+    text-align: justify;/*aligning the texts to justify*/
+}
+
+summary h2 {
+    text-align: center;/*align the text to center */
+    padding-bottom: 15px;/*set the padding bottom to 15px*/
+}
+
+
+#aboutme-footer{
+    margin-top: 290px;/*set the top margin of the footer to 290px*/
+}
+
+
+/*////////////////-APPLICATION FORM-/////////////////////////*/
+
+
+.container {
+    display: grid;/*displaying the container as grids*/
+    grid-template-columns: 1fr 500px 1fr;/* sets the grids into 3 columns with a 1 fraction on each side and a 500px in the middle section*/
+    grid-template-rows: 300px auto 1fr;/*sets grids into 3 rows with a 300px on the first column and auto (second column)and 1fr for the bottom (footer)*/
+    grid-gap: 20px;/*sets the grid gap to 20px*/
+    margin-top: 10px;/*gives a 10px top margin*/
+    
+}
+
+
+/*////////-ITEM 2-///////////////*/
+
+#form {
+    width: 400px;/*sets the width of the header to 400px*/
+    color: #ffffff;/*sets the color of the text to white*/
+    padding:15% 20% 10px 17%;/* sets the padding top(15%) right(20%) bottom(10px) left(17%)*/
+    text-shadow: 2px 2px 6px #000000;/*sets a black shadow 2px to the right, 2px down and 6px back creating a fading shadow*/
+}
+
+
+#text {
+    font-family: sans-serif;/*sets the font to sans serif*/
+    color: #f2f76d;/*sets the text color to a shade between yellow and green */
+    padding-left: 8%;/*sets the padding left of the paragraph to 8%*/
+    font-size: 20px;/*set the size of the font to 20px*/
+    text-shadow: 2px 2px 4px #000000;/*sets a black shadow 2px to the right, 2px down and 4px back creating a fading shadow*/
+}
+
+#text2 {
+    text-align: justify;/*sets the align text to justify*/
+    padding:10px 30px 10px 30px;/*set the padding of the par top(10px) right(30px) bottom(10px) left(30px)*/
+    color: #fff;/*sets the color of text to white*/
+    background-color:#ffb400;/* sets the background color to bright yellow*/
+    margin: 15px 10px 0px 10px;/*set the margin of the par top right bottom left*/
+    border-radius: 5px;/* sets the border radius to 5px*/
+    
+    
+}
+
+
+
+/*Name and date*/
+
+.item5 {
+    background-color: rgba(0,0,0,.8);/*sets the transparent background color to black */
+    box-shadow: 0 5px 25px rgba(0,0,0,.9);/*sets the box shadow to a transparent black color on the left(5px) and right(25px)*/
+    border-radius: 5px;/*sets the border radius to 5px*/
+}
+
+form {
+    color: #fff;/*set the text color to white*/
+    padding: 50px;/*sets the padding pf the form to 50px*/
+    margin-top: -20px;/*taking 20px away at the top margin of the form*/
+}
+
+
+input[type=text] {
+    width: 370px;/*sets the width to 370px*/
+    border-radius: 5px;/*sets the border radius to 5px*/
+    padding: 5px;/*sets the padding of the text to 5px*/
+    margin-top: 10px;/*sets the margin top of the text to 10px*/
+    margin-bottom: 10px;/*sets the bottom margin to 10px*/
+}
+
+
+input[type=date] {
+    border-radius: 5px;/*sets the border radius to 5px*/
+    width: 370px;/*sets the width to 370px*/
+    color: #000;/*set the text color to black*/
+    font-family: sans-serif;/*set the font to sans serif*/
+    padding: 5px;/*sets the padding to 5px*/
+    margin-top: 10px;/*sets the top margin to 10px*/
+    margin-bottom: 10px;/*sets the bottom margin to 10px*/
+}
+
+/*//////////////-GENDER-//////////////*/
+
+input[type=radio] {
+    margin-top: 10px;/*sets the top margin to 10px*/
+
+}
+
+.identity {
+    padding-top: 10px;/*sets the top padding to 10px*/
+}
+
+#identity {
+     width: 100%;/*sets the width to 100%*/
+    border-radius: 5px;/*sets the border radius to 5px*/
+    margin-top: 10px;/*sets the top margin to 10px*/
+    padding: 5px;/*sets the padding to 5px*/
+}
+
+
+/*/////-COMMENT-//////*/
+textarea{
+    font-family: sans-serif;/*sets the font of the textarea to sans-serif*/
+    color: #000;/*set the text color to black*/
+    font-size: 15px;/*sets the sixe of the text to 15px*/
+    width: 370px;/*sets the width to 370px*/
+    margin-top: 10px;/*sets the top margin to 10px*/
+    border-radius: 5px;/*sets the border radius to 5px*/
+    padding: 5px;/*sets the padding to 5px*/
+    margin-bottom: 10px;/*sets the margin bottom to 10px*/
+}
+
+/*///////-SUBMIT-///////*/
+
+input[type=submit], input[type=reset] {
+    background-color: #ffb400;/*set the background color of the submission and reset box to bright yellow*/
+    border: none;/*set the border to none*/
+    border-radius: 5px;/*sets the border radius to 5px*/
+    font-weight: bold;/*set the font weight to bold*/
+    color: #000;/*sets the font color to black*/
+    width: 100%;/*sets the width to 100%*/
+    margin-top: 10px;/*set the top padding to 10px*/
+    padding: 10px 0;/*sets top to 10px and bottom to 0px */
+    font-family: sans-serif;/*set the font family to sans-serif*/
+}
+
+input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #f3e367;/*sets the hover background color to a shade between yellow and green color*/
+}
+
+fieldset {
+    padding: 6px;/*sets the padding of the fieldset to 6px*/
+    border-radius: 5px;/*sets the border radius to 5px*/
+}
+
+/*Userdata*/
+
+.result {
+    background: linear-gradient(0deg, rgba(45,125,105,1) 0%, rgba(47,76,115,1) 100%);/*sets the backgroud as gradient color of green and blue*/
+   margin-left: 30%;/*set the margin on the 30%*/
+   margin-top: 15%;/*set the margin on the 15%*/
+    border: none;/*sets the border to none*/
+    border-radius: 5px;/*sets the border radius to 5px*/
+    width: 500px;/*sets the width to 500px*/
+    padding: 10px;/*sets the padding to 10px*/
+    text-align: center;/*aligning the texts in center*/
+    color: #fff;/*set the text color to white*/
+      
+}
+
+.feedback{
+    margin: 10px 0px 15px 0px; /*sets the margin top(10px) right(0px) bottom (15px) left (0px)*/  
+}
+
+#return{
+     color: #fff;/*set the text color to white*/
+    text-decoration: none;/*set the text decoration to none to remove the underline.*/
+     background-color: #ffb400;/*sets the background color to bright yellow*/
+    padding: 5px;/*set the padding to 5px*/
+    border: 1px solid #000;/*seta a 1px solid border with a color black*/
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+
+/*///////////-SOCIAL MEDIA TOOLS SECTION-//////////*/
+
+/*///-LOGO SECTION-///*/
+
+#slack {
+    width: 400px;/*sets the width to 400px*/
+    position: absolute;/*position the logo as absolute*/
+    left: 35%;/*set the left position of the image to 35%*/
+    top: 25%; /*sets the top position of the image to 25%*/   
+}
+
+#linkedin {
+    width: 300px;/*sets the width to 300px*/
+    position: absolute;/*position the logo as absolute*/
+    left: 40%;/*set the left position of the image to 40%*/
+    top: 15%; /*sets the top position of the image to 15%*/   
+}
+
+#pinterest {
+    width: 550px;/*sets the width to 300px*/
+    position: absolute;/*position the logo as absolute*/
+    left: 31%;/*set the left position of the image to 31%*/
+    top: 15%;/*sets the top position of the image to 15%*/   
+}
+
+#tumblr {
+    width: 300px;/*sets the width to 300px*/
+    position: absolute;/*position the logo as absolute*/
+    left: 38%;/*set the left position of the image to 38%*/
+    top: 15%;/*sets the top position of the image to 15%*/   
+}
+
+#instagram {
+    width: 300px;/*sets the width to 300px*/
+    position: absolute;/*position the logo as absolute*/
+    left: 38%;/*set the left position of the image to 38%*/
+    top: 15%;/*sets the top position of the image to 15%*/   
+}
+
+
+
+.column {
+    float: left;/*sets float position of the divs to left*/
+    width: 20%;/*sets the width to 20%*/
+    padding: 10px;/*set the padding to 10px*/
+    text-align: center;/*aligning the texts to center*/
+    height: 300px;/*sets the height to 300px*/
+    margin-left: 10px;/*sets the left margin to 10px*/
+    margin-bottom: 10%;/*set the bottom margin to 10%*/
+    border-radius: 4px;/*sets the border radius to 4px*/
+    
+}
+
+.row {
+    margin: 30% 5% 5% 10%;;/*sets the top margin ot the rows to 30%*/ 
+}
+
+.headings {
+    background-color: #0d2c54;/*set the background color of the headings as navy*/
+    border-bottom-left-radius:4px;/*sets the left bottom border radius to 4px*/
+    border-bottom-right-radius: 4px;/*sets the right bottom border radius to 4px*/
+    height: 50px;/*set the height of the heading to 50px*/
+    position: absolute;/*sets position to absolute*/
+    top: 117%;/*sets the top position of the headings to 117%*/ 
+    margin-left: -10px;/*sets the left margin of the headings to -10px*/ 
+    width: 235px;/*sets the with to 235px*/
+    text-align: center;/*aligning the headings to center*/
+    line-height: 50px;/*sets the line height of the heading tp 50px;*/
+}
+
+/*//////////-ICON IMAGES-///////////*/
+.intro {
+    width: 200px;/*sets the width of the image to 200px*/
+    padding-top: 20px;/*sets the top padding as 20px*/
+}
+
+.register {
+    width: 220px;/*sets the width of the image to 220px*/
+    padding-top: 20px;/*sets the top padding as 20px*/
+}
+
+.instruction {
+    width: 200px;/*sets the width of the image to 200px*/
+    padding-top: 20px;/*sets the top padding as 20px*/
+}
+
+.caution {
+    width: 200px;/*sets the width of the image to 200px*/
+    padding-top: 40px;/*sets the top padding as 40px*/
+    height: 200px;/*sets the height of the icon image to 200px*/
+}
+
+.text-decoration {
+    text-decoration: none; /*setting the text decoration to none removes the underline of the link*/
+    color: #000; /*sets the text color to black*/
+}
+
+.headings:hover {
+    background-color: #fff; /*sets the background color of the headings to white*/
+    opacity: 50%; /*sets the opacity of the heading color to 50%*/
+    color: #000; /*set the color of the text to black when you hover on it*/
+}
+
+
+
+/*////////////////-SLACK INFORMATION PAGE SECTION*/
+
+#headers {
+    font-size:80px; /*set the font size of the header to 80px*/ 
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 500px;/*sets the top/bottom to 20px and 500px on the left/right*/ 
+    border: 5px outset #a2d5ab ;/*setting a 5px outset border for the header with a mint green color */ 
+    background-color: #fff;/*sets the background color of the header to white*/ 
+    color: #a2d5ab;/*sets the font color to mint green*/ 
+}
+
+.img {
+    width: 400px; /*is sets the images to 400px*/ 
+    border: 5px outset #fff;/*setting a 5px outset border for the image with a mint green color */ 
+    border-radius: 10px;/*i set a 10px border radius for the images*/ 
+}
+
+.grid-container1 {
+    display: grid;/*i set the container that contains the elements to grid*/ 
+    grid-template-columns: 1fr 1fr;/* set a two column with a 1 fraction*/ 
+    grid-gap: 20px;/*sets the gap of the grid to 20px*/ 
+}
+
+.item-1 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 10px;/*set the padding of the element to 10px*/ 
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*set the font size of the element to 20px*/ 
+    background-color: #a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    margin: 0px 400px;/*set a 0 margin for the top and bottom of the heading and 400px for left and right side*/ 
+    border: 5px outset #fff ;/*set a 5px outset border in white*/    
+}
+
+
+.item-2 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 20px 10px 20px 100px;/*set the top/bottom margin to 20px, 10px on the right and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+.item-3 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    margin: 70px 100px 0px 20px;/*set the top to 70px, right to 100px, bottom to 0px and 20px on the left side of the element */ 
+    text-align: center; /*aligning the heading to center*/
+    
+}
+.item-4 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */  
+    padding: 10px;/*set the padding of the element to 10px*/
+    text-align: center; /*aligning the heading to center*/ 
+    font-size: 20px;/*set the font size of the text to 20px*/ 
+    background-color: #a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    margin: 0px 400px;/*set a 0 margin for the top and bottom of the heading and 400px for left and right side*/  
+    border: 5px outset #fff ;/*set a 5px outset border in white*/  
+}
+.item-5 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/ 
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    margin: 20px 100px 20px 100px;/*set the top to 20px, right to 100px, bottom to 20px and 100px on the left side of the element */ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.item-6 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */  
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    margin: 50px 50px 100px 50px;/*set the top/left/right to 50px and 100px at the bottom of the element */  
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/   
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.item-7 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 10px;/*set the padding of the element to 10px*/
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*sets the font size of the element to 20px*/  
+}
+.item-8 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 10px;/*set the padding of the element to 10px*/
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*sets the font size of the element to 20px*/ 
+    background-color: #a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    margin: 0px 400px;/*set a 0 margin for the top and bottom of the heading and 400px for left and right side*/ 
+    border: 5px outset #fff;/*set a 5px outset border in white*/  
+}
+
+.item-9 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    text-align: center;/*aligning the heading to center*/
+    padding: 30px;/*set the padding of the element to 30px*/
+}
+.item-10 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.item-11 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.item-12 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.item-13 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.item-14 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.item-15 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.item-16 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.item-17 {
+    grid-column: 2 / 3; /*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.item-18 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 10px;/*set the padding of the element to 10px*/
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*set the font size to 20px*/
+    background-color: #a2d5ab;/*set the background color to mint green*/
+    margin: 0px 400px;/*set the top/bottom margin to 0 and left/right margin to 400px*/
+    border: 5px outset #fff ;/*setting a 5px outset white border for the heading*/
+   
+}
+
+
+.video1 {
+    width: 600px; /*set the width of the video to 600px*/
+    border: 5px outset #a2d5ab; /*sets the border of the video to 5px in solid with a color of mint green*/
+    border-radius: 50px;/*sets the border radius of the video to 50px*/
+    margin-bottom: 10px; /*set the bottom margin of the video 10px*/
+}
+
+.item-19 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    text-align: center; /*setting the video in the center*/
+}
+
+.item-20 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px; /*set the margin of the element to 50px*/
+    border: 5px solid #fff; /*i set a solid 5px border in white for the element*/
+    border-radius: 10px; /*sets the border radius to 10px*/
+}
+
+.item-21 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.item-22 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    text-align: center;/*setting the video in the center*/
+    padding: 30px; /*set the padding of the element to 30px*/
+    
+}
+
+.item-23{
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px;/*sets the margin of the element to 50px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px; /*sets the border radius to 10px*/
+}
+
+.caution-safety {
+  text-align: center;/*setting the video in the center*/
+    padding-bottom: 10px;/*sets the bottom padding of the element to 10px*/
+}
+
+.par {
+    margin-bottom: 5px;/*set the margin bottom of the paragraph to 5px*/
+}
+
+strong {
+    color: #000; /*set the color of the text in bold to black*/
+}
+
+
+/*/////////-LINKEDIN PAGE INFORMATION SECTION-////////////////*/
+
+
+#header2 {
+    font-size:80px; /*set the font size of the header to 80px*/ 
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 450px;/*sets the top/bottom to 20px and 450px on the left/right*/ 
+    border: 5px outset #be375f ;/*set the border to 5px outset pink border for the header*/ 
+    background-color: #fff;/*sets the background color of the header to white*/ 
+    color:#be375f ;/*set the font color to pink*/ 
+}
+
+.grid-container2 {
+     display: grid;/*i set the container that contains the elements to grid*/ 
+    grid-template-columns: 1fr 1fr;/* sets a two column with a 1 fraction*/ 
+   grid-gap: 20px;/*sets the gap of the grid to 20px*/ 
+
+}
+
+
+.text-decoration2 {
+    text-decoration: none; /*Removes the underline under the link texts*/
+    color: #000; /*set the link font color to black*/
+}
+
+.img2 {
+    width: 400px; /*sets the width of the images to 400px*/ 
+    padding-left: 20px; /*set the left padding of the images to 20px*/
+}
+
+.img3 {
+    width: 200px; /*set the width of the imaages to 200px*/
+     border: 5px outset #be375f;/*setting a 5px outset border for the image with a pink color*/ 
+    border-radius: 10px;/*i set the border radius of the image to 10px*/ 
+}
+
+.img4 {
+    width: 127px; /*sets the width of the image t0 127px*/
+     border: 5px outset #be375f;/*setting a 5px outset border for the image with a pink color*/ 
+    border-radius: 10px;/*i set a 10px border radius for the images*/ 
+}
+
+.img5 {
+     width: 400px; /*is sets the images to 400px*/ 
+     border: 5px outset #be375f;/*setting a 5px outset border for the image with a pink color*/ 
+    border-radius: 10px;/*i set a 10px border radius for the images*/ 
+}
+
+
+.video2 {
+    width: 600px; /*set the width of the video to 600px*/
+    border: 5px outset #fff; /*sets the border of the video to 5px in solid with a white color*/
+    border-radius: 50px;/*sets the border radius of the video to 50px*/
+    margin-bottom: 10px; /*set the bottom margin of the video 10px*/
+}
+
+.col-1 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 10px;/*set the padding of the element to 10px*/ 
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*set the font size of the element to 20px*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    margin: 0px 400px;/*set a 0 margin for the top and bottom of the heading and 400px for left and right side*/ 
+    border: 5px outset #fff ;/*set a 5px outset border in white*/ 
+}
+
+.col-2 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 20px 20px 20px 100px;/*set the top/bottom/right margin to 20px and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.col-3 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    margin: 20px 100px 200px 20px;/*set the top margin to 20px, right to 100px, bottom to 200px and 20px on the left side of the element*/ 
+    text-align: center; /*aligning the heading to center*/
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    padding: 20px; /*set the padding of the element to 20px*/
+}
+
+.col-4 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 10px;/*set the padding of the element to 10px*/ 
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*set the font size of the element to 20px*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    margin: 0px 400px;/*set a 0 margin for the top and bottom of the heading and 400px for left and right side*/ 
+    border: 5px outset #fff ;/*set a 5px outset border in white*/ 
+}
+
+.col-5 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    margin: 20px 10px 20px 100px;/*set the top/bottom margin to 20px, 10px on the right and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.col-6 {
+    text-align: center; /*align the element to center*/
+    padding-top: 17px; /*set the top padding of the element to 17px*/
+}
+
+.col-7 {
+    text-align: center;/*align the element to center*/
+    padding-top: 15px;/*set the top padding of the element to 15px*/
+}
+
+.col-8 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    margin: 20px 100px 20px 20px;/*set the top/bottom/left to 20px and 100px on the right side, of the element */ 
+    text-align: center; /*aligning the heading to center*/
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    padding: 20px; /*set the padding of the element to 20px*/
+}
+
+.col-9 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 10px;/*set the padding of the element to 10px*/ 
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*set the font size of the element to 20px*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    margin: 0px 400px;/*set a 0 margin for the top and bottom of the heading and 400px for left and right side*/ 
+    border: 5px outset #fff ;/*set a 5px outset border in white*/ 
+}
+
+.col-10 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 20px 20px 500px 100px;/*set the top/right margin to 20px, 50opx at the bottom and 100px on the left side of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.col-11 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    text-align: center; /*align the video at the center*/   
+    margin-top: -440px;  /*set the top margin to -440px to remove extra space at the Ttop of the element*/
+}
+
+.col-13 {
+    text-align: center; /*aligns the element at the center*/
+    padding: 30px; /*set the padding of the element to 30px*/
+}
+
+.col-14 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    margin: 20px 100px 35px 20px;/*set the top to 20px, right to 100px, bottom to 35px and 20px on the left side of the element */ 
+    text-align: justify; /*aligning the texts to justify*/
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    padding: 20px; /*set the padding of the element to 20px*/
+}
+
+.col-16 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:center;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 20px 10px 200px 100px;/*set the top margin to 20px, 10px on the right, 200px at the bottom and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.middle {
+    text-align: center; /*placed the element at the center*/
+    padding-bottom: 10px; /*set the padding bottom of the element to 10px*/
+}
+
+.col-17 {
+     grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    margin: 20px 100px 200px 20px;/*set the top to 70px, right to 100px, bottom to 0px and 20px on the left side of the element */ 
+     background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+     border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    padding: 20px 20px 20px 25px;/*set the top/right/bottom padding to 2opx and 25px on the left side of the element*/
+}
+
+.col-18 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 20px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+    margin: -180px 100px 10px 100px;/*set the top margin to -180px, 10px on the right, 500px at the bottom and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+#linkedin-video {
+   margin-bottom: 200px
+}
+
+.col-19 {
+     grid-column: 1 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    margin: 100px 100px 50px 100px;/*set the top to 70px, right to 100px, bottom to 0px and 20px on the left side of the element */ 
+    text-align: justify; /*aligning the heading to center*/
+     background-color: #be375f;/*sets the border of the element to 5px in solid with a pink color*/ 
+     border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    padding: 20px; /*set the padding of the element to 20px*/
+}
+
+.minus {
+    margin-bottom: -50px; /*set the bottom margin to -50px to remove extra space*/
+}
+
+
+/*/////////////-TUMBLR SECTION-/////////*/
+
+#header4 {
+    font-size:80px; /*set the font size of the header to 80px*/ 
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 455px;/*sets the top/bottom to 20px and 455px on the left/right*/
+    width: 300px;
+    border: 5px outset #be375f ;/*set the border to 5px outset pink border for the header*/ 
+    background-color: #fff;/*sets the background color of the header to white*/ 
+    color:#be375f ;/*set the font color to pink*/ 
+}
+
+
+.grid-container4 {
+     display: grid;/*i set the container that contains the elements to grid*/ 
+    grid-template-columns: 650px 600px;/* sets the two column to 650 and 600px*/ 
+   grid-gap: 20px;/*sets the gap of the grid to 20px*/
+}
+
+.pics {
+    width: 200px; /*set the width of the images to 200px*/
+    border: 5px outset #fff ;/*set the border to 5px outset whitek border for the images*/ 
+    height: auto;/*set the height of the images to auto*/
+    
+}
+.pic1 {
+    width: 500px;/*set the width of the images to 500px*/
+    height: 345px;/*set the height of the image to 345px*/
+    border: 5px outset #fff ;/*set the border to 5px outset white border for the images*/ 
+    
+}
+.par2 {
+    padding: 15px 0px;/*set the  top/bottom 15px and opx padding on the left/right of the paragraph*/
+}
+
+.pic3 {
+    width: 500px;/*set the width of the images to 500px*/
+}
+
+.col {
+    font-size: 20px;/*set the font size of the text to 200px*/
+    grid-column: 1 / 3;/*set the span of the elemen starting at column 1 and end at column 3*/
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 350px;/*sets the top/bottom to 20px and 350px on the left/right*/ 
+    border: 5px outset #fff ;/*set the border to 5px outset pink border for the header*/ 
+    background-color: #be375f;/*sets the background color of the header to pink*/ 
+    width: 500px;/*set the width of the element to 500px*/
+    padding: 10px;/*set the padding of the element to 10px*/
+}
+
+.col1 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 50px 50px 100px;/*set the top margin to 50px, 50px 
+    on the right, 50px at the bottom and 100px on the left of the element*/
+    width: 400px;/**set the width of the colmuns to 400px/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.col2 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 350px 50px 10px;/*set the top margin to 50px, 350px on the right, 50px at the bottom and 10px on the left of the element*/ 
+     width: 400px;/*set the width of the element to 400px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.col5 {
+    grid-column: 1 / 3;/*set the span of the elemen starting at column 1 and end at column 3*/
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 200px;/*sets the top/bottom to 20px and 480px on the left/right*/ 
+    border: 5px outset #fff ;/*set the border to 5px outset pink border for the header*/ 
+     border-radius: 10px;/*sets the border radius to 10px*/
+    background-color: #be375f;/*sets the background color of the header to white*/ 
+    padding: 20px 0px; /*set the top/bottom padding to 20px and 0px on the left/right of the element*/
+    width: 800px;/*set the width of column to 800px*/
+}
+
+.col6 {
+    grid-column: 1 / 3;/*set the span of the elemen starting at column 1 and end at column 3*/
+     margin: 50px 250px;/*set the top and bottom margin to 50px and 250px on the left and right side of the element*/
+}
+
+.col7 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px;/*set the top and bottom margin to 50px and 100px at the left and right side of the element*/
+    height: auto;/*set the height of the element too auto*/
+    width: 400px;/*set the width of the column to 400px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.col8 {
+     grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */
+     margin: 50px;/*set the margin of the column to 50px*/
+}
+
+.col9 {
+
+   grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+      margin: 50px 110px;/*set the top and bottom margin to 50px and 110px on the left and right side of the element*/
+}
+
+.col10 {
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+     margin: 50px 100px 50px 50px;/*set the top/botto/left margin to 50px and 100px on the right side of the column*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+    width: 400px;/*set the width of the column to 400px*/
+}
+
+.col11 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+     margin: 50px 100px;/*set the top/bottom margin to 50px and 200px on each sides*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+    width: 400px;/**set the width to 400px/
+}
+
+.col12 {
+     grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */
+     margin: 50px;/*set the margin of the column to 50px*/
+
+}
+
+.col13 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px;/*set top and bottom margin to 50px and 100px on the left/right side of the element */
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.col14 {
+     grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+      margin: 50px 100px;/*set the top/bottom margin to 50px and 100px to on the left and right side*/
+}
+
+.col15 {
+     grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */
+     margin: 20px 400px;/*set the top/bottom margin to 20px and 400px on the left/right side*/
+     width: 400px;/*set the width of the element to 400px*/
+    height: 200px; /*set the height of the element to 200px*/
+}
+
+.col16 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px;/*set the top/bottom margin to 50px and 100px in the left and right side*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/ 
+    width: 400px;/*set the width of the element to 400px*/
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.col17 {
+     grid-column: 2 / 3;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 150px 50px 50px;/*set the margin top, bottom, and left side to 50px and 150px on the rightside of the element*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    width: 400px;/*set the width of the elment to 400px*/
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+
+ 
+.video3 {
+    grid-column: 1 / 3;/*set the span of the elemen starting at column 1 and end at column 3*/
+    width: 600px; /*set the width of the video to 600px*/
+    border: 5px outset #fff; /*sets the border of the video to 5px in solid with a white color*/
+    border-radius: 50px;/*sets the border radius of the video to 50px*/
+    
+}
+
+
+.col18 {
+     grid-column: 1 / 3;/*set the span of the elemen starting at column 1 and end at column 3*/
+     margin: 50px 300px;/*set the top/bottom margin to 50px and 300px on the left and right side of the element*/
+}
+
+
+.col16 {
+    grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 20px;/*set the padding of the element to 30px*/
+    text-align:justify;/*aligning the texts to justify*/ 
+    background-color: #be375f;/*sets the border of the element to 5px in solid with a color of pink*/ 
+    margin: 20px 10px 20px 150px;/*set the top margin to 20px, 10px on the right, 500px at the bottom and 150px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+    
+}
+
+
+/*/////////////////-INSTAGRAM SECTION-//////////////*/
+
+#header5{
+     font-size:80px; /*set the font size of the header to 80px*/ 
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 440px;/*sets the top/bottom to 20px and 440px on the left/right*/ 
+    border: 5px outset #ffc872 ;/*setting a 5px outset border for the header with a mint green color */ 
+    background-color: #fff;/*sets the background color of the header to white*/ 
+    color: #ffc872;/*sets the font color to mint green*/
+    padding-bottom: 15px;
+}
+
+.grid-container5 {
+     display: grid;/*i set the container that contains the elements to grid*/ 
+    grid-template-columns:1fr 1fr;/* sets a two column with a 1 fraction*/ 
+   grid-gap: 20px;/*sets the gap of the grid to 20px*/ 
+}
+
+#instainfo-logo {
+    width: 310px;/*set the width of the logo to 310px*/
+
+}
+
+#pic5 {
+    width: 250px;/*set image 5 to 250px*/
+}
+
+#pic6 {
+    width: 200px;/*set the with of picture 6 to 200px*/
+}
+
+.column1 {
+    font-size: 20px;/*set the font sixe of the element to 20px*/
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 400px;/*sets the top/bottom to 20px and 480px on the left/right*/ 
+    border: 5px outset #fff ;/*set the border to 5px outset pink border for the header*/ 
+    background-color:  #ffc872;/*sets the background color of the header to orange*/ 
+}
+
+.column2 {
+     grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+   background-color:  #ffc872;/*sets the background of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 10px 50px 100px;/*set the top/bottom/right margin to 20px and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    
+}
+
+.column3{
+    grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    margin: 50px 100px;/*set the top/bottom margin to 50px and 100px on the left/right side of the element*/
+}
+.column4 {
+     grid-column: 1 / 3;/*setting the span of the element by starting at col 1 and end at col 3 */ 
+    font-size: 20px;/*set the font size to 20px*/
+    text-align: center;/*seting the header to center*/ 
+    margin: 20px 400px;/*sets the top/bottom to 20px and 480px on the left/right*/ 
+    border: 5px outset #fff ;/*set the border to 5px outset pink border for the header*/ 
+    background-color:  #ffc872;/*sets the background color of the header to orange*/ 
+}
+
+.column5 {
+     grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+   background-color:  #ffc872;/*sets the background of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px ;/*set the top/bottom/right margin to 20px and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.column6 {
+    grid-column: 1 / 3;/*setting the span of the element by starting at col 1 and end at col 3 */ 
+    margin: 0px 400px;/*set the top and bottom margin to 0px and 400px on the left and right side of the element*/
+}   
+
+.column7 {
+    grid-column: 1 / 3;/*setting the span of the element by starting at col 1 and end at col 3 */ 
+    font-size: 20px;/*set the font size of the element ot 20px*/
+    text-align: center;/*seting the header to center*/ 
+    margin: 50px 400px;/*sets the top/bottom to 20px and 480px on the left/right*/ 
+    border: 5px outset #fff ;/*set the border to 5px outset pink border for the header*/ 
+    background-color:  #ffc872;/*sets the background color of the header to orange*/ 
+}
+#imagevideo1 {
+    width: 500px;/*set the width of the image to 500px*/
+    border: 5px outset #fff ;/*set the border to 5px outset pink border for the header*/ 
+    border-radius: 5px;/*set the border radius to 5px*/
+}
+
+.column8 {
+     grid-column: 1 / 3;/*setting the span of the element by starting at col 1 and end at col 3 */ 
+    text-align: center;/*aligning the element to center*/
+}
+.column10 {
+    grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+   background-color:  #ffc872;/*sets the background of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px;/*set the top/bottom margin to 50px and 100px on the left/right of the element*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+.column11 {
+     grid-column: 1 / 3;/*set the span of the element starting at col 1 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+   background-color:  #ffc872;/*sets the background of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px;/*set the top/bottom margin to 50px and 100px on the left/right of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.column12 {
+     grid-column: 1 / 2;/*set the span of the element starting at col 1 and end at col 2 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+   background-color:  #ffc872;/*sets the background of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px 100px 100px;/*set the top/bottom/right margin to 20px and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.column13 {
+     grid-column: 2 / 3;/*set the span of the element starting at col 2 and end at col 3 */ 
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+   background-color:  #ffc872;/*sets the background of the element to 5px in solid with a color of pink*/ 
+    margin: 50px 100px 100px 100px;/*set the top/bottom/right margin to 20px and 100px on the left of the element*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/  
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+#insta-footer {
+    margin-top: -50px;/* setting the top margin to -50px to remove the gap*/
+}
+
+
+/*//////-PINTEREST SECTION-////////////*/
+
+#header3 {
+    font-size:80px; /*set the font size of the header to 80px*/ 
+    text-align: center;/*seting the header to center*/ 
+    width: 400px;/*set the wdith of the header to 400px*/
+    margin: 20px 455px;/*sets the top/bottom to 20px and 430px on the left/right*/ 
+    border: 5px outset #a2d5ab ;/*setting a 5px outset border for the header with a mint green color */ 
+    background-color: #fff;/*sets the background color of the header to white*/ 
+    color: #a2d5ab;/*sets the font color to mint green*/ 
+}
+
+.images {
+   width:  500px;/*set the width of the element to 500px*/
+}
+
+.app-tool {
+    width: 300px;/*set the width of the element to 300px*/
+}
+
+.titles {
+    padding: 10px;/*set the padding of the element to 10px*/ 
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*set the font size of the element to 20px*/ 
+    background-color: #a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    margin: 0px 500px;/*set a 0 margin for the top and bottom of the heading and 500px for left and right side*/ 
+    border: 5px outset #fff ;/*set a 5px outset border in white*/ 
+    width: 300px;/*set the width of the element ot 300px*/
+}
+
+.title {
+     padding: 10px;/*set the padding of the element to 10px*/ 
+    text-align: center; /*aligning the heading to center*/
+    font-size: 20px;/*set the font size of the element to 20px*/ 
+    background-color: #a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/ 
+    margin: 0px 450px;/*set a 0 margin for the top and bottom of the heading and 450px for left and right side*/ 
+    border: 5px outset #fff ;/*set a 5px outset border in white*/ 
+    width: 400px;/*set the with of the element to 400px*/
+}
+
+.column-1 {
+   
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px 150px;/**/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/
+    width: 400px;/*set the width of the element to 400px*/
+}
+
+.column-2 {
+    position: absolute;/*set the position of the element to absolute*/
+    top: 47%;/*set the top positioning to 47%*/
+    left: 50%;/*set the position of on the left to 50%*/
+    margin: 50px;/*sets the maargin to 50px*/
+    
+}
+.column-3 {
+    float: right;/*set the element to float on the right*/
+    margin: 50px 130px;/*with a 50px on the top and bottom margin and 130px on the left and right side of the elemnt*/
+} 
+
+.column-4 {
+    
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 100px 150px 50px 150px;/**/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    width: 400px;/*set the width of the element to 400px*/
+}
+
+.column-5 {
+    float: right;
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px 130px;/**/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    width: 400px;/*set the width of the element to 400px*/
+}
+
+.column-6 {
+    
+    margin: 50px 0px 50px 300px;/*sets the top/bottom margin to 50px and 300px on the left while the the right margin was set to zero*/
+}
+
+.column-7 {
+    margin: 50px 410px;  /*set the top and bottom margin to 50px and 410px on the left and right side of the element*/
+}
+
+.column-8 {
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    margin: 50px 50px 50px 150px;/*sets the top,right,bottom  margin to 50px and 150px on the left*/ 
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    width: 400px;/*set the width of the element to 400px*/
+}
+
+.column-9 {
+   position: absolute;/*set the position of the element to absolute*/
+    top: 549%;
+    left: 55%;
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    width: 400px;/*set the width of the element to 400px*/
+}
+
+#phone {
+    width: 150px;/*set the width of the element to 150px*/
+}
+
+
+#image-video1 {
+    width: 500px;/*set the width of the element to 500px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+}
+
+.app2 {
+    width: 450px;/*set the width of the element to 450px*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/
+}
+
+.columns:after {
+    content: "";/*set the element's content*/
+    display: table; /*displaying the element as table*/
+    clear: both;/*set the element to clear both*/
+}
+
+.column-10 {
+    float: left;
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    width: 30%;/*sets the width of the element to 30%*/
+    margin: 50px 10px 50px 150px; /*sets the top/bottom margin to 50px and 10px on the irght while 150px on the left side of the element*/
+}
+
+.column-11 {
+    float: left;/*set the float of the element to the right*/
+    padding: 30px;/*set the padding of the element to 30px*/
+    text-align: justify;/*aligning the texts to justify*/ 
+    background-color:#a2d5ab;/*sets the border of the element to 5px in solid with a color of mint green*/
+    border: 5px solid #fff;/*set a 5px solid border in white*/
+    border-radius: 10px;/*sets the border radius to 10px*/ 
+    width: 30%;/*sets the width of the element to 30%*/
+    margin: 50px 100px; /*set the top and bottom margin to 50px and 100px on the left and right side of the element*/
+}
+
+.column-12 {
+    margin: 50px 200px 50px 400px;/*set the top/bottom margin to 50px, 200px on the right and 400px on the left side of the element*/
+}
+
+
+
+#pinterest-footer {
+    margin-top: -10px;/*set the top margin to -10px removes the spce gap between the elements*/
+}
+
+
+/*///////-SITE-MAP-////////////*/
+
+#sitemap {
+    font-size: 50px;/*set the font size to 50px*/
+    text-align: center;/*aligning the element in the center*/
+    margin: 30px 350px;/*set the margin top and bottom to 30px and 350px on left/right side*/
+    border: 5px solid #fff;/*set the border of the heading to 5px solid with wite color*/
+    padding-bottom: 20px;/*set the oadding bottom of the heading to 20px*/
+}
+
+.sitemap {
+     background: linear-gradient(0deg, rgba(45,125,105,1) 0%, rgba(47,76,115,1) 100%);/*sets the backgroud as gradient color of green and blue*/
+    margin: 0px 400px;/*set the top/bottom margin to 0px and 400px on left/right side of the sitemap*/
+    padding: 20px 20px 20px 40px;/*set the top/right/bottom padding to 20px and 40px on the left side of the element*/
+}
+
+.sitemap ol li a {
+    text-decoration: none;/*set the text decoration to none remove the underline link text*/
+    color: #fff;/*set the font color to white*/
+}
+
+.sitemap ul {
+    padding-left: 20px;/*set the padding on the left to 20px of sitemap and unordered lists*/
+}
+
+.sitemap ul li {
+    margin: 5px;/*set the margin of the sitemap/ul/li to 5px */
+}
+
+.sitemap ol li a:hover {
+    color: #000;/*set the font color of the texts to black*/
+    padding: 5px;/*set the padding of the text element to 5px*/
+}
+
+
+#text-decoration3 {
+    text-decoration: none;/*set the text decoration to none removes the underline link on the texts*/
+    color: #fff;/*set the font color of the text element to white when its hovered*/
+}
+
+.back {
+    background-color: #ffb400;/*set the background color to yellow*/
+    width: 170px;/*set the width of element to 170px*/
+    text-align: center;/*alings the text element to center*/
+    margin: 20px 540px;/*set the top/bottom margin to 20px and 540px on left/right margin of the element*/
+    font-size: 12px;/*set thefont size to 12px*/
+    padding: 10px;/*set the padding to 10px*/
+}
+
+
+/*////////////////-RESOURCES PAGES-/////////////////*/
+
+#main-section {
+    margin: 0px 330px;/*set the top and bottom margin to 0px while the left and right margin was set to 330px*/
+}
+
+#resource {
+    font-size: 60px;/*set the font size to 60px*/
+    text-align: center;/*aligning the text to center*/
+    background-color: #ffb400;/*set the background color to yellow*/
+    width: 680px;/*set the width to 680px*/
+    margin-left: 300px;/*set the left margin to 300px*/
+    border: 5px inset #fff;/*set the border of the element to 5px inset with a white color*/
+}
+
+#resource-footer {
+    margin-top: -5px;/*set the top margin to -5px remeves the unecessary gap*/
+}
+
+.section1 {
+    width: 500px; /*set the width of the element to 500px*/
+    background-color: #ffb400;/*set the background color to yellow*/
+    padding: 20px;/*set the padding to 20px*/
+    margin: 40px;/*set the margin to 40px*/
+    border: 5px inset #fff;/* set the 5px border inset in white color*/
+}
+
+.section1 li a {
+    text-decoration: none;/*set text decoration to none removes the underline link*/
+    color: #000;/*set the font color to black*/
+}
+
+
+.section2 {
+   width: 500px; /*set the width of the element to 500px*/
+    background-color: #ffb400;/*set the background color to yellow*/
+    padding: 20px;/*set the padding to 20px*/
+    margin: 40px;/*set the margin to 40px*/
+    border: 5px inset #fff;/* set the 5px border inset in white color*/
+}
+
+.section2 li a {
+    text-decoration: none;/*set text decoration to none removes the underline link*/
+    color: #000;/*set the font color to black*/
+}
+
+.section3 {
+    width: 500px; /*set the width of the element to 500px*/
+    background-color: #ffb400;/*set the background color to yellow*/
+    padding: 20px;/*set the padding to 20px*/
+    margin: 40px;/*set the margin to 40px*/
+    border: 5px inset #fff;/* set the 5px border inset in white color*/
+}
+
+.section3 li a {
+     text-decoration: none;/*set text decoration to none removes the underline link*/
+    color: #000;/*set the font color to black*/
+}
+
+.section4 {
+     width: 500px; /*set the width of the element to 500px*/
+    background-color: #ffb400;/*set the background color to yellow*/
+    padding: 20px;/*set the padding to 20px*/
+    margin: 40px;/*set the margin to 40px*/
+    border: 5px inset #fff;/* set the 5px border inset in white color*/
+}
+
+.section4 li a {
+     text-decoration: none;/*set text decoration to none removes the underline link*/
+    color: #000;/*set the font color to black*/
+}
+
+.section5 {
+     width: 500px; /*set the width of the element to 500px*/
+    background-color: #ffb400;/*set the background color to yellow*/
+    padding: 20px;/*set the padding to 20px*/
+    margin: 40px;/*set the margin to 40px*/
+    border: 5px inset #fff;/* set the 5px border inset in white color*/
+}
+
+.section5 li a {
+    text-decoration: none;/*set text decoration to none removes the underline link*/
+    color: #000;/*set the font color to black*/
+}
+
+
+
+
+
+
