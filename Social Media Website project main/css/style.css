@@ -4,7 +4,7 @@
     padding: 0; /*setting the padding to 0 to style for all the elements in html page*/
 }
 body {
-    background-image: url(image/background.jpg); /*i used an image for my background*/
+     background-image: url(images/background.jpg); /*i used an image for my background*/
     background-size: cover; /*the image will fill the elements while keeping its aspect ratio*/
     font-family: sans-serif; /*setting the elements to sans-serif*/
     color: #fff;
